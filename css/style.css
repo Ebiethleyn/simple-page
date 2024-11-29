@@ -1,0 +1,31 @@
+/* Custom Colors */
+:root {
+  --primary-color: #7671fa;
+  --secondary-color: #e5eaf3;
+  --dark-color: #07244c;
+  --text-muted: #7e7f9c;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+
+h1,
+h2 {
+  color: var(--dark-color);
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
